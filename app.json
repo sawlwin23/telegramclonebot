@@ -1,0 +1,30 @@
+{
+  "name": "TelegramCloneBot Moded by MyatThawMaung",
+  "description": "Telegram CloneBot Moded",
+  "logo": "https://i.imgur.com/Pi7nnl4.jpg",
+  "keywords": [
+    "telegram",
+    "clone",
+    "google drive",
+    "clone bot"
+  ],
+  "repository": "https://github.com/NoobFromMM/telegramclonebot",
+  "website":   "https://github.com/NoobFromMM/telegramclonebot",
+  "success_url": "https://t.me/myatthawmaung",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Telegram @BotFather တွင်ရယူပါ",
+      "value": "",
+      "required": true
+    },
+    "GDRIVE_FOLDER_ID": {
+      "description": "သင်၏ Shared Drive Id ထည့်ပါ",
+      "value": "",
+      "required": false
+    }
+    
+  },
+  "buildpacks": [{
+    "url": "heroku/python"
+  }]
+}
